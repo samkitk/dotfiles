@@ -2,6 +2,7 @@ export ZSH="~/.oh-my-zsh"
 export ZSH_CUSTOM="$ZSH/custom"
 
 # Oh-My-Zsh Install
+cd ~
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "Oh-My-Zsh Installed ✔ \n"
