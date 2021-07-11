@@ -9,6 +9,8 @@ echo "Updated and Upgraded 🔥 \n"
 # ZSH Figlet and lolcat Install
 sudo apt install figlet lolcat zsh
 
+export PATH=/usr/games:$PATH
+
 echo "ZSH, Figlet, Lolcat Installed ✔ \n"
 
 echo "Going to install OhMyZsh"
