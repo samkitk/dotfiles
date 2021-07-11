@@ -23,3 +23,5 @@ sudo apt-get install ~/dotfiles/exa_0.9.0-4_amd64.deb
 rm -rf ~/dotfiles/exa_0.9.0-4_amd64.deb
 
 echo "Installed Exa ✨ \n"
+
+echo "-------------------------" |lolcat

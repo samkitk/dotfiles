@@ -13,6 +13,7 @@ echo "ZSH, Figlet, Lolcat Installed ✔ \n"
 
 echo "Going to install OhMyZsh"
 bash ~/dotfiles/install_zsh.sh
+echo "Installed OhMyZsh with plugins \n" | lolcat
 
 # Copy Paste This in the `.zshrc`
 # if [ -x "$(command -v exa)" ]; then
@@ -20,8 +21,11 @@ bash ~/dotfiles/install_zsh.sh
 #     alias la="exa --long --all --group"
 # fi
 
+echo "Undertaking Symlinking Process \n" | lolcat
 bash ~/dotfiles/symlink.sh
+echo "Symlinking Script Successful \n" | lolcat
 
+echo "----------------------" | lolcat
 source ~/.zshrc
 
 figlet -c Done | lolcat
