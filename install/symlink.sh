@@ -1,6 +1,5 @@
 files=(
     '.aliases'
-    '.p10k.zsh'
     '.profile'
     '.zshrc'
     '.gitconfig'
