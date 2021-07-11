@@ -28,6 +28,7 @@ bash ~/dotfiles/install/symlink.sh
 echo "Symlinking Script Successful \n" | lolcat
 
 echo "----------------------" | lolcat
-source ~/.zshrc
 
 figlet -c Done | lolcat
+
+exec zsh
