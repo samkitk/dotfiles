@@ -12,7 +12,7 @@ sudo apt install figlet lolcat zsh
 echo "ZSH, Figlet, Lolcat Installed ✔ \n"
 
 echo "Going to install OhMyZsh"
-bash ~/dotfiles/install_zsh.sh
+bash ~/dotfiles/install/install_zsh.sh
 echo "Installed OhMyZsh with plugins \n" | lolcat
 
 # Copy Paste This in the `.zshrc`
@@ -22,7 +22,7 @@ echo "Installed OhMyZsh with plugins \n" | lolcat
 # fi
 
 echo "Undertaking Symlinking Process \n" | lolcat
-bash ~/dotfiles/symlink.sh
+bash ~/dotfiles/install/symlink.sh
 echo "Symlinking Script Successful \n" | lolcat
 
 echo "----------------------" | lolcat
