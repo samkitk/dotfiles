@@ -1,4 +1,4 @@
-export ZSH="~/.oh-my-zsh"
+export ZSH="home/$USER/.oh-my-zsh"
 export ZSH_CUSTOM="$ZSH/custom"
 
 # Oh-My-Zsh Install
