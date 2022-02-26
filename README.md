@@ -1,0 +1,3 @@
+# dotfiles
+
+bash main.sh
