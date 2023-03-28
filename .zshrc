@@ -81,6 +81,7 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
+  autojump
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -90,6 +91,13 @@ if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
     alias la="exa --long --all --group"
 fi
+
+function lazygit() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+alias lg=lazygit
 
 # User configuration
 
@@ -122,3 +130,7 @@ source $HOME/.aliases
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:/usr/local/go/bin"
