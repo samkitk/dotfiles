@@ -1,1 +1,8 @@
-
+[include]
+	path = ~/git-profiles/personal-gitprofile.conf
+	
+[includeIf "gitdir/i:~/Documents/BharatX-Samkit/"]
+	path = ~/git-profiles/bx-gitprofile.conf
+	
+[includeIf "gitdir/i:~/Documents/Fleek/"]
+	path = ~/git-profiles/fleek-gitprofile.conf
